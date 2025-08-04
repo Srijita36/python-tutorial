@@ -6,7 +6,7 @@ for i in range(100):
     print(i)
 
 
-#Continue
+# Continue
 
 for i in range(100):
     if(i==40):
