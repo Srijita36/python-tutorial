@@ -1,1 +1,22 @@
     # Write a program to print multiplication table of a given number using for loop. 
+
+
+n = int(input("Enter a number"))
+
+for i  in range(1,11):
+    print(f"{n} X {i} = {n * i}")
+
+
+
+    # Output:
+    # Enter a number 2
+    # 2 X 1 = 2
+    # 2 X 2 = 4
+    # 2 X 3 = 6
+    # 2 X 4 = 8
+    # 2 X 5 = 10
+    # 2 X 6 = 12
+    # 2 X 7 = 14
+    # 2 X 8 = 16
+    # 2 X 9 = 18
+    # 2 X 10 = 20
